@@ -1,7 +1,7 @@
-import './App.css'
-import React from 'react'
+import "./App.css"
+import React from "react"
 
-function App () {
+function App() {
   return (
     <div className="App">
       <h1>Henry Countries</h1>
