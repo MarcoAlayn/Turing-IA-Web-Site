@@ -1,12 +1,14 @@
-import "./App.css"
-import React from "react"
+import "./App.css";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <h1>Henry Countries</h1>
+      <header className="App-header">
+        <h1>Hola Mundo</h1>
+      </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
