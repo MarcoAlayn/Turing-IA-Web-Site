@@ -5,7 +5,7 @@ import "./navbar.css";
 function Navbar() {
   return (
     <nav className="navbarContainer">
-      <NavLink to={"/"}>Inicio</NavLink>
+      <NavLink to={"/"}>inicio</NavLink>
       <NavLink to={"/servicios"}>Servicios</NavLink>
       <NavLink to={"/contacto"}>Contacto</NavLink>
     </nav>
