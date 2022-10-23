@@ -3,6 +3,8 @@ import React from "react";
 import Navbar from "../Navbar";
 import "./header.css";
 import Brand from "../Brand";
+import Slogan from "../Slogan";
+import Button from "../Button";
 
 function Header({ video }) {
   return (
@@ -12,6 +14,8 @@ function Header({ video }) {
       <video src={video} autoPlay muted loop />
       <Brand />
       <Navbar />
+      <Slogan />
+      <Button />
     </header>
   );
 }

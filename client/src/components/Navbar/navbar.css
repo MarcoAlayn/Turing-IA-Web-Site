@@ -1,7 +1,5 @@
 .navbarContainer{
     /* border: 1px solid rgb(199, 21, 21); */
-    width: 300px;
-    text-align: center;
     margin-left: 57%;
     margin-top: 4.5%;
     position: absolute;
@@ -15,8 +13,10 @@
     text-transform: uppercase;
     color: white;
     font-family: 'Raleway', sans-serif;
+}
 
-
+.textLink:hover{
+    text-decoration: underline 2px;
 }
 
 

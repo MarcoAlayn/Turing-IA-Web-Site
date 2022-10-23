@@ -1,0 +1,21 @@
+.buttonContainer{
+    /* border: 1px solid rgb(199, 21, 21);  */
+    position: absolute;
+    margin-left:100px;
+    margin-top:510px;
+}
+
+.buttonText{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background: transparent;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.buttonText:hover{
+    background: white;
+    color: dodgerblue;
+}

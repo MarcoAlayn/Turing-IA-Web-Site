@@ -1,0 +1,15 @@
+.sloganContainer{
+  /* border: 1px solid green; */
+  width: 900px;
+  position: absolute;
+  margin-top: 315px;
+  margin-left: 100px;
+}
+
+.sloganText{
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway',cursive, sans-serif;
+  font-size: 60px;
+}
+
+
