@@ -10,7 +10,7 @@ function Header({ video }) {
       <div className="overlay"></div>
       <div className="regla"></div>
       <video src={video} autoPlay muted loop />
-      <Brand className="brandName" />
+      <Brand />
       <Navbar />
     </header>
   );
