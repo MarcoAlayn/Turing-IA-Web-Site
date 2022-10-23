@@ -8,8 +8,9 @@ function Header({ video }) {
   return (
     <header className="headerContainer">
       <div className="overlay"></div>
+      <div className="regla"></div>
       <video src={video} autoPlay muted loop />
-      <Brand />
+      <Brand className="brandName" />
       <Navbar />
     </header>
   );
