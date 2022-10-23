@@ -7,6 +7,7 @@ import Brand from "../Brand";
 function Header({ video }) {
   return (
     <header className="headerContainer">
+      <div className="overlay"></div>
       <video src={video} autoPlay muted loop />
       <Brand />
       <Navbar />
