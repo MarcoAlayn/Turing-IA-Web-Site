@@ -15,10 +15,6 @@
   font-size: 60px;
 }
 
-@media scree and (max-width:1920px){
-  
-}
-
 @media screen and (max-width:1280px){
   .sloganContainer{
     width: 600px;
@@ -35,7 +31,7 @@
 @media screen and (max-width:800px){
   .sloganContainer{
     width: 60%;
-    margin-left: 105px;
+    margin-left: 100px;
     text-align: center;
     flex-direction: column;
   }

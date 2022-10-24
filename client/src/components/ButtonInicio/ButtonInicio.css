@@ -1,0 +1,36 @@
+.buttonInicioContainer{
+    /* border: 1px solid rgb(199, 21, 21);  */
+    position: absolute;
+    margin-left:100px;
+    /* margin-top:510px; */
+}
+
+.buttonInicioText{
+    border: 1px solid dodgerblue;
+    padding: 15px;
+    background: transparent;
+    color:dodgerblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.buttonInicioText:hover{
+    background: dodgerblue;
+    color: white;
+}
+
+@media screen and (max-width:1280px){
+    .buttonInicioContainer{
+        margin-left:100px;
+        margin-top:0px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .buttonInicioContainer{
+        
+        margin-left:170px;
+        margin-top:0px;
+    }
+}
