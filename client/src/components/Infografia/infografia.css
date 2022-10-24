@@ -1,0 +1,54 @@
+.infografiaContainer{
+    margin-top: 11%;
+    
+
+}
+
+.pack1{
+    display: flex;
+    flex-flow: nowrap;
+    
+}
+
+.overlayImage1{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    background: linear-gradient(to top right, transparent 90%, white 50%), linear-gradient(to bottom left, transparent 80%, white 80%);
+    z-index: 0;
+}
+
+.imagen1{
+    width: 600px;
+    height: 400px;
+    z-index: -2;
+    margin-left: 100px;
+}
+
+.pregunta{
+   margin-left: 118px;
+    font-family: Raleway;
+    color: dodgerblue;
+    text-transform: uppercase;
+}
+
+.parrafo1{
+    margin-top: 80px;
+    margin-left: 675px;
+    padding: 25px;
+    background: dodgerblue;
+    color: gainsboro;
+    position: absolute;
+    width: 510px;
+    font-family: Raleway;
+    font-size: 28px;
+    box-shadow: 7.5px 7.5px 15px grey;
+}
+
+@media screen and (max-width:1280px){
+
+}
+
+@media only screen and (max-width:800px){
+
+}

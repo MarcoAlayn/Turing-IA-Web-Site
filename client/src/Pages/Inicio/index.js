@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import video from "../../assets/Inicio.mp4";
 import "./Inicio.css";
 import ButtonInicio from "../../components/ButtonInicio";
+import Infografia from "../../components/Infografia";
 
 function Inicio() {
   return (
@@ -14,6 +15,7 @@ function Inicio() {
         que brinda soluciones que aportan al éxito de las empresas.
       </p>
       <ButtonInicio />
+      <Infografia />
     </div>
   );
 }
