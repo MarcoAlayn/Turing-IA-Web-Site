@@ -8,7 +8,7 @@ function Inicio() {
   return (
     <div className="inicioContainer">
       <Header video={video} />
-      <h2 className="queHacemos">QUE HACEMOS</h2>
+      <h2 className="queHacemos">QUIENES SOMOS</h2>
       <p className="parrafo">
         Turing-IA es una empresa de consultoría global de tecnología y negocios
         que brinda soluciones que aportan al éxito de las empresas.
