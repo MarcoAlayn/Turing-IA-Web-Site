@@ -4,8 +4,8 @@ import Header from "../../components/Header";
 function Servicios() {
   return (
     <div>
-      Servicios
       <Header />
+      Servicios
     </div>
   );
 }

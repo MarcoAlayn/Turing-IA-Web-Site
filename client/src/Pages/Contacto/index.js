@@ -4,8 +4,8 @@ import Header from "../../components/Header";
 function Contacto() {
   return (
     <div>
-      Contacto
       <Header />
+      Contacto
     </div>
   );
 }

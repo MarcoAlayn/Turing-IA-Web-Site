@@ -33,6 +33,10 @@
     text-transform: uppercase;
 }
 
+.pregunta:hover{
+    text-decoration: underline 2px;
+}
+
 .parrafo1{
     margin-top: 80px;
     margin-left: 675px;

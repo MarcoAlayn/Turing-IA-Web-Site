@@ -5,13 +5,14 @@ import "./header.css";
 import Brand from "../Brand";
 import Slogan from "../Slogan";
 import Button from "../Button";
+import poster from "../../assets/poster.jpg";
 
 function Header({ video }) {
   return (
     <header className="headerContainer">
       <div className="overlay"></div>
       <div className="regla"></div>
-      <video src={video} autoPlay muted loop />
+      <video poster={poster} src={video} autoPlay muted loop />
       <Brand />
       <Navbar />
       <Slogan />
