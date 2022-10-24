@@ -19,3 +19,21 @@
     background: white;
     color: dodgerblue;
 }
+
+@media scree and (max-width:1920px){
+  
+}
+
+@media screen and (max-width:1280px){
+    .buttonContainer{
+        margin-left:100px;
+    margin-top:470px;
+    }
+}
+
+@media(max-width:800px){
+    .buttonContainer{
+        margin-left:190px;
+        margin-top:415px;
+    }
+}

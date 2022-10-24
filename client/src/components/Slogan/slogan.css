@@ -4,12 +4,45 @@
   position: absolute;
   margin-top: 315px;
   margin-left: 100px;
+  display:flex;
+  flex-direction: row;
+
 }
 
 .sloganText{
   color: rgb(255, 255, 255);
   font-family: 'Raleway',cursive, sans-serif;
   font-size: 60px;
+}
+
+@media scree and (max-width:1920px){
+  
+}
+
+@media screen and (max-width:1280px){
+  .sloganContainer{
+    width: 600px;
+    margin-left: 97px;
+    
+  }  
+
+    .sloganText{
+    font-size: 45px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:800px){
+  .sloganContainer{
+    width: 60%;
+    margin-left: 105px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .sloganText{
+    font-size: 27px;
+    font-weight: bold;
+  }
 }
 
 
