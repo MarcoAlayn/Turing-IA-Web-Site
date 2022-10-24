@@ -4,6 +4,7 @@ import video from "../../assets/Inicio.mp4";
 import "./Inicio.css";
 import ButtonInicio from "../../components/ButtonInicio";
 import Infografia from "../../components/Infografia";
+import InfografiaD from "../../components/InfografiaD";
 
 function Inicio() {
   return (
@@ -16,6 +17,7 @@ function Inicio() {
       </p>
       <ButtonInicio />
       <Infografia />
+      <InfografiaD />
     </div>
   );
 }
