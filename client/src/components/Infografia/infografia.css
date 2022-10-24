@@ -11,6 +11,7 @@
 }
 
 .overlayImage1{
+    /* border: 1px solid Black; */
     width: 700px;
     height: 400px;
     position: absolute;
@@ -45,10 +46,76 @@
     box-shadow: 7.5px 7.5px 15px grey;
 }
 
-@media screen and (max-width:1280px){
+@media only screen and (max-width:1280px){
+    .infografiaContainer{
+        margin-top: 16%;
+    }
 
+    .imagen1{
+        width: 400px;
+        height: 300px;
+    }
+
+    .overlayImage1{
+        /* border: 1px solid Black; */
+        width: 500px;
+        height: 300px;
+    }
+
+    .parrafo1{
+        margin-top: 60px;
+        margin-left: 475px;
+        padding: 10px;
+        font-size: 20px;
+        width: 320px;
+        text-align: left;
+    }
+    
+    .pregunta{
+        margin-top: 0px;
+        margin-left: 45px;
+        font-size: 20px;
+     }
+    
 }
 
 @media only screen and (max-width:800px){
+    .infografiaContainer{
+        margin-top: 27%;
+        
+    }
+    .overlayImage1{
+        background: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .pack1{
+        flex-flow: wrap;
+    }
+    .imagen1{
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        margin-left: 0px;
+        margin-top:50px;
+    }
 
+    .pregunta{
+        /* position: absolute; */
+        margin-top: -320px;
+        font-size: 16.5px;
+        margin-left: 150px;
+    }
+
+
+    .parrafo1{
+        position: sticky;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        box-shadow: none;
+    }
 }
